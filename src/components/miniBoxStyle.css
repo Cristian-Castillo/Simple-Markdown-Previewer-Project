@@ -1,0 +1,42 @@
+
+.container {
+    overflow:hidden;
+    margin-top:10px;
+    font-family: 'Roboto Mono', monospace !important;
+    height: 35vh;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:45px;
+    border-style:1.5px soild black;
+    font-size:15px;
+    background-color:none;
+}
+
+.header{
+    border: 2px solid var(--customWhite);
+    background-color:var( --customBlue);
+    font-size:20px;
+    padding:5px 0px 0px 10px;
+    color:white;
+    padding-left:10px;
+    box-shadow:10px 30px 30px rgba(45,45,45,.5);
+    border-radius:1px;
+}
+
+.body {
+    display: grid;
+    overflow: hidden;
+    background-color:black;
+    color:var(--customGreen);
+    border:1.5px solid var(--customWhite);
+}
+
+.content {
+    overflow-y: scroll;
+    padding: 15px;
+}
+
+.windows{
+    margin-bottom:7px;
+    font-size:30px;
+}

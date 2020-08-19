@@ -1,0 +1,37 @@
+.containerBigBox{
+    margin-top:40px;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:45px; 
+    border-style:1.5px soild black;
+    box-shadow: 6px 30px 30px rgba(45,45,45,.5);
+    font-size:15px;
+}
+
+.headerBigBox{
+    border:2px solid var(--customWhite);
+    background-color:var( --customBlue);
+    color:white;
+    box-shadow:10px 30px 30px rgba(45,45,45,.5);
+    border-radius:1px;
+    font-size:20px;
+    padding:5px 0px 0px 10px;
+}
+
+.bodyBigBox{
+    display: grid;
+    overflow: hidden;
+    height:100vh;
+    background-color:black;
+    color:var(--customGreen);
+    border:1.5px solid var(--customWhite);
+}
+
+.contentBigBox{
+    padding: 15px;
+}
+
+.windows{
+    margin-bottom:7px;
+    font-size:30px;
+}

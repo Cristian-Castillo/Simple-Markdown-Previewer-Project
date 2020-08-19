@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:url(https://atariage.com/forums/uploads/post-3107-1167627893.jpg)no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
+:root{
+  --customGreen:rgb(58, 250, 58);
+  --customGray:rgba(41, 41, 41, 0.89);
+  --customBlue:rgb(5, 5, 139);
+  --customWhite:rgb(211, 211, 211);
+}
+
+
+code {
+  font-family: 'Roboto Mono', monospace !important;
+}
