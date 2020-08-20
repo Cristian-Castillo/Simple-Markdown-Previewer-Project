@@ -22,7 +22,7 @@
     display: grid;
     overflow: hidden;
     text-align:justify !important; 
-    height:90vh;
+    height:100vh;
     background-color:black;
     color:var(--customGreen);
     border:1.5px solid var(--customWhite);
