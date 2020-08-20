@@ -8,6 +8,7 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  text-align:justify !important; 
 }
 
 :root{
@@ -20,4 +21,6 @@ body {
 
 code {
   font-family: 'Roboto Mono', monospace !important;
+  text-align:justify !important; 
+  color:var(--customGreen)!important;
 }
