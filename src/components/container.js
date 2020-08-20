@@ -39,7 +39,7 @@ export default class container extends Component {
                 
             </div>
         </div>
-        <div className = 'containerBigBox'>
+        <div style = {{marginLeft:'20px', marginRight:'20px'}} className = 'containerBigBox'>
             <div className = 'headerBigBox'><h5><span><SiWindows95 className ='windows' /> Previewer</span></h5></div>
                 <div className = 'bodyBigBox'>
                     <div className = 'contentBigBox'>
